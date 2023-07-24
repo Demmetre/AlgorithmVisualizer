@@ -5,7 +5,7 @@ const int windowWidth = 800;
 const int windowHeight = 600;
 const int barWidth = 50;
 const int barSpacing = 20;
-const int ANIMATION = 1000;
+const int ANIMATION = 200;
 const int LEN = 5;
 
 void drawArray(const vector<int>& array, RenderWindow& window, int left, int right, int pivot){
@@ -84,6 +84,7 @@ void RunQuickSort() {
             if (event.type == Event::KeyPressed) {
                 if (event.key.code == Keyboard::Space) {
                     quickSortVisualization(array, window);
+                    window.close();
                 }
             }
         }
