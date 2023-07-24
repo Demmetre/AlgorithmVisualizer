@@ -1,6 +1,5 @@
 #include "bubble.h"
-
-
+#include "quicksort.h"
 
 using namespace std;
 using namespace sf;
@@ -8,7 +7,7 @@ using namespace sf;
 
 int main() {
 
-    RunBubbleSort();
+    RunQuickSort();
     
     return 0;
 }

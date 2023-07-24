@@ -1,5 +1,6 @@
 #include "bubble.h"
 
+
 const int windowWidth = 800;
 const int windowHeight = 600;
 const int barWidth = 50;
