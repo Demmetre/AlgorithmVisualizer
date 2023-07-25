@@ -1,5 +1,5 @@
-#ifndef BUBBLE_H
-#define BUBBLE_H
+#ifndef SQUARESORT_H
+#define SQUARESORT_H
 
 #include <SFML/Graphics.hpp>
 #include <vector>
@@ -14,5 +14,7 @@ void animateList(std::vector<int>& array, sf::RenderWindow& window, int animatio
 void bubbleSortVisualization(std::vector<int>& array, sf::RenderWindow& window);
 vector<int> generateRandomList();
 void RunBubbleSort();
+void RunInsertionSort();
+void RunSelectionSort();
 
-#endif // BUBBLE_H
+#endif // SQUARE_H

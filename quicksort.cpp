@@ -1,5 +1,5 @@
 #include "quicksort.h"
-#include "bubble.h"
+#include "squareSort.h"
 
 const int windowWidth = 800;
 const int windowHeight = 600;
